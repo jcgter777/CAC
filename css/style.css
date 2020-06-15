@@ -15,12 +15,9 @@ body {
 }
 
 #title {
-  margin-top: 10px; 
-  margin-bottom: 0px;
-  font-weight: 600;
   text-align: center;
-  color: #000;
-  font-size: 350%;
+  border: 10px inset;
+  border-radius: 10px;
 }
 
 p, a {
