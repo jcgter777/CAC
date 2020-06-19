@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>CAC Submission</title>
+  <title>Website title tbd</title>
   <link rel="shortcut icon" href="img/icon.png">
-  <script type="text/javascript" src="js/main.js"></script>
+  <script defer="true" src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <script defer="true" src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <base target="_blank">
 </head>
 <body>
-  <h1 id="title">Congressional App Challenge</h1>
-  <div>idk what the heck this is going to be</div>
+  <h1 id="title">Title tbd</h1>
+  <div id="googlesignin" class="visible">
+    <h4 style="text-align:center;">Please sign in with Google:</h4>
+    <div id="signin-div"><img id="signinbutton" src="img/googlesignin.png" onclick=""></div>
+  </div>
 
-  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
-  <script>
-    var firebaseConfig = {
-      apiKey: "AIzaSyC6GNGrAh1tTCU8c_uyqxfEyxVuiv9YIhE",
-      authDomain: "congress-app-challenge-jcjz.firebaseapp.com",
-      databaseURL: "https://congress-app-challenge-jcjz.firebaseio.com",
-      projectId: "congress-app-challenge-jcjz",
-      storageBucket: "congress-app-challenge-jcjz.appspot.com",
-      messagingSenderId: "680387094668",
-      appId: "1:680387094668:web:09cf5cd1524895d3a3f3a9",
-      measurementId: "G-JF18VZ8LDK"
-    };
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
+  <footer class="footer">&copy; 2020 Joyce Zhou and Joshua Chen</footer>
+  <script defer="true" type="text/javascript" src="js/basefire.js"></script>
+  <script defer="true" type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>
