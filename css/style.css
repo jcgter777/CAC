@@ -3,21 +3,11 @@
   margin: auto auto;
 }
 
-html {
-  margin: 0 0;
-}
-
 body {
   width: 100%;
   margin: auto auto;
   padding: 10px;
   background-color: #fff;
-}
-
-#title {
-  text-align: center;
-  border: 10px inset;
-  border-radius: 10px;
 }
 
 p, a {
@@ -30,4 +20,26 @@ strong {
 
 div {
   text-align: center;
+}
+
+#title {
+  text-align: left;
+  margin: auto auto;
+}
+
+#signinbutton {
+  width: 220px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue; 
+  color: #696969;
+  text-align: center;
+  font-size: 10px;
 }
